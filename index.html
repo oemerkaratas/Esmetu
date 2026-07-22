@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esmetu Catering — Mediterranean &amp; Turkish Catering in Houston, TX</title>
+  <meta name="description" content="Authentic Mediterranean &amp; Turkish catering for weddings, corporate events, and celebrations across the Greater Houston Area. Charcoal-grilled kebabs, fresh mezze, and full-service hospitality — request a free quote.">
+  <link rel="canonical" href="https://www.esmetucatering.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Esmetu Catering">
+  <meta property="og:title" content="Esmetu Catering — Catering That Brings People Together">
+  <meta property="og:description" content="Authentic Mediterranean &amp; Turkish cuisine, crafted for your most important moments. Weddings, corporate events &amp; celebrations in Greater Houston.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&amp;w=1200&amp;auto=format&amp;fit=crop">
+  <meta property="og:url" content="https://www.esmetucatering.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Esmetu Catering — Catering That Brings People Together">
+  <meta name="twitter:description" content="Authentic Mediterranean &amp; Turkish catering for weddings, corporate events &amp; celebrations in Greater Houston.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&amp;w=1200&amp;auto=format&amp;fit=crop">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&amp;w=2000&amp;auto=format&amp;fit=crop">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Esmetu Catering",
+    "description": "Authentic Mediterranean and Turkish catering for weddings, corporate events, private parties, and holiday gatherings across the Greater Houston Area. Full-service and drop-off options.",
+    "servesCuisine": ["Mediterranean", "Turkish"],
+    "url": "https://www.esmetucatering.com",
+    "telephone": "+1-713-555-0184",
+    "email": "hello@esmetucatering.com",
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1234 Westheimer Rd",
+      "addressLocality": "Houston",
+      "addressRegion": "TX",
+      "postalCode": "77006",
+      "addressCountry": "US"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 29.7433, "longitude": -95.3903 },
+    "areaServed": "Greater Houston Area",
+    "openingHours": "Mo-Su 09:00-19:00",
+    "knowsAbout": ["Wedding catering", "Corporate catering", "Halal catering", "Mezze", "Kebab"]
+  }
+  </script>
+  <style>/* ============================================================
+   ESMETU CATERING — Design System
+   Palette: terracotta #A0341E · cream #F8F1E5 · gold #C9A24A
+            charcoal #1A1A1A · espresso #2B1D14
+   Type: Fraunces (serif display) + Manrope (sans body)
+   ============================================================ */
+
+:root {
+  --terracotta: #A0341E;
+  --terracotta-dark: #822511;
+  --cream: #F8F1E5;
+  --cream-card: #FFFDF8;
+  --gold: #C9A24A;
+  --gold-soft: rgba(201, 162, 74, 0.4);
+  --charcoal: #1A1A1A;
+  --espresso: #2B1D14;
+  --espresso-deep: #221610;
+  --ink-soft: #5C534B;
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-card: 0 6px 24px rgba(43, 29, 20, 0.08);
+  --shadow-card-hover: 0 18px 44px rgba(43, 29, 20, 0.16);
+  --header-h: 88px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 8px);
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--charcoal);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { max-width: 100%; display: block; }
+ul[class], ol[class] { list-style: none; }
+a { color: inherit; }
+button { font: inherit; }
+
+h1, h2, h3, h4 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+
+::selection { background: var(--gold); color: var(--espresso); }
+
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.skip-link {
+  position: absolute; top: -60px; left: 16px; z-index: 300;
+  background: var(--terracotta); color: var(--cream);
+  padding: 0.7rem 1.2rem; border-radius: 8px;
+  font-weight: 700; text-decoration: none;
+  transition: top 0.2s ease;
+}
+.skip-link:focus { top: 12px; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.4rem;
+}
+@media (min-width: 768px) { .container { padding: 0 2rem; } }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem;
+  font-family: var(--sans); font-weight: 700; font-size: 0.95rem;
+  letter-spacing: 0.02em; text-decoration: none; white-space: nowrap;
+  padding: 0.95rem 2rem; border-radius: 999px;
+  border: 2px solid transparent; cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease,
+              transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn--primary { background: var(--terracotta); color: var(--cream); }
+.btn--primary:hover {
+  background: var(--terracotta-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(160, 52, 30, 0.35);
+}
+.btn--ghost { border-color: rgba(248, 241, 229, 0.75); color: var(--cream); background: transparent; }
+.btn--ghost:hover { background: var(--cream); border-color: var(--cream); color: var(--charcoal); transform: translateY(-2px); }
+.btn--ghost-dark { border-color: var(--terracotta); color: var(--terracotta); background: transparent; }
+.btn--ghost-dark:hover { background: var(--terracotta); color: var(--cream); transform: translateY(-2px); }
+.btn--light { background: var(--cream); color: var(--terracotta); }
+.btn--light:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25); }
+.btn--lg { padding: 1.1rem 2.6rem; font-size: 1.05rem; }
+.btn--block { width: 100%; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 120;
+  padding: 1.35rem 0;
+  transition: background 0.35s ease, box-shadow 0.35s ease, padding 0.35s ease;
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.logo {
+  font-family: var(--serif); font-size: 1.5rem; font-weight: 600;
+  color: var(--cream); text-decoration: none; letter-spacing: 0.01em;
+  transition: color 0.35s ease; z-index: 130; line-height: 1.1;
+}
+.logo em { font-style: italic; font-weight: 500; color: var(--gold); }
+.nav-links { display: none; align-items: center; gap: 2.1rem; }
+.nav-links a {
+  font-size: 0.93rem; font-weight: 600; text-decoration: none;
+  color: var(--cream); padding: 0.3rem 0; position: relative;
+  transition: color 0.35s ease;
+}
+.nav-links a::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 100%; height: 2px; background: var(--gold);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.nav-links a:hover::after, .nav-links a:focus-visible::after { transform: scaleX(1); }
+.nav-cta { display: none; }
+.site-header .btn { padding: 0.75rem 1.6rem; font-size: 0.88rem; }
+
+.site-header.scrolled {
+  background: var(--cream);
+  box-shadow: 0 2px 24px rgba(43, 29, 20, 0.12);
+  padding: 0.75rem 0;
+}
+.site-header.scrolled .logo,
+.site-header.scrolled .nav-links a { color: var(--charcoal); }
+.site-header.scrolled .logo em { color: var(--terracotta); }
+.site-header.scrolled .hamburger span { background: var(--charcoal); }
+
+.hamburger {
+  display: inline-flex; flex-direction: column; gap: 6px;
+  background: none; border: 0; cursor: pointer;
+  padding: 10px 6px; z-index: 130;
+}
+.hamburger span {
+  width: 26px; height: 2px; background: var(--cream);
+  border-radius: 2px; transition: transform 0.3s ease, opacity 0.3s ease, background 0.35s ease;
+}
+.hamburger.open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+.hamburger.open span { background: var(--cream) !important; }
+
+.mobile-menu {
+  position: fixed; inset: 0; z-index: 125;
+  background: var(--espresso);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.4rem; padding: 2rem;
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+.mobile-menu.open { opacity: 1; visibility: visible; }
+.mobile-menu a:not(.btn) {
+  font-family: var(--serif); font-size: 2rem; font-weight: 500;
+  color: var(--cream); text-decoration: none; padding: 0.45rem 1rem;
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.4s ease, transform 0.4s ease, color 0.25s ease;
+}
+.mobile-menu a:not(.btn):hover { color: var(--gold); }
+.mobile-menu.open a:not(.btn) { opacity: 1; transform: none; }
+.mobile-menu.open a:nth-child(1) { transition-delay: 0.08s; }
+.mobile-menu.open a:nth-child(2) { transition-delay: 0.14s; }
+.mobile-menu.open a:nth-child(3) { transition-delay: 0.2s; }
+.mobile-menu.open a:nth-child(4) { transition-delay: 0.26s; }
+.mobile-menu.open a:nth-child(5) { transition-delay: 0.32s; }
+.mobile-menu.open a:nth-child(6) { transition-delay: 0.38s; }
+.mobile-menu .btn { margin-top: 1.6rem; opacity: 0; transition: opacity 0.4s ease 0.46s, background 0.25s, transform 0.25s; }
+.mobile-menu.open .btn { opacity: 1; }
+body.no-scroll { overflow: hidden; }
+
+@media (min-width: 1024px) {
+  .nav-links { display: flex; }
+  .nav-cta { display: inline-flex; }
+  .hamburger { display: none; }
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex; align-items: flex-end;
+  background-size: cover; background-position: center;
+  color: var(--cream);
+}
+@media (min-width: 1024px) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .hero { background-attachment: fixed; }
+}
+.hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(52deg,
+    rgba(26, 13, 6, 0.85) 0%,
+    rgba(26, 13, 6, 0.55) 40%,
+    rgba(26, 13, 6, 0.12) 72%,
+    rgba(26, 13, 6, 0) 100%);
+}
+.hero-content {
+  position: relative; z-index: 1;
+  max-width: 800px;
+  padding-top: 9rem; padding-bottom: 8.5rem;
+}
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem; font-weight: 700;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 1.3rem;
+}
+.hero h1 {
+  font-size: clamp(2.9rem, 6.5vw, 5.1rem);
+  line-height: 1.04; margin-bottom: 1.4rem;
+}
+.hero-sub {
+  font-size: clamp(1.05rem, 1.6vw, 1.28rem);
+  max-width: 34em; color: rgba(248, 241, 229, 0.92);
+  margin-bottom: 2.4rem;
+}
+.hero-ctas { display: flex; flex-wrap: wrap; gap: 1rem; }
+.scroll-cue {
+  position: absolute; left: 50%; bottom: 1.8rem; transform: translateX(-50%);
+  z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 0.6rem;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.28em;
+  text-transform: uppercase; color: rgba(248, 241, 229, 0.65);
+}
+.scroll-cue .line {
+  width: 1px; height: 46px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  animation: cue-drop 2.2s ease-in-out infinite;
+}
+@keyframes cue-drop {
+  0%   { transform: translateY(-6px); opacity: 0; }
+  35%  { opacity: 1; }
+  100% { transform: translateY(10px); opacity: 0; }
+}
+
+/* ---------- Sections ---------- */
+.section { padding: clamp(4.5rem, 9vw, 7.5rem) 0; }
+.section--dark { background: var(--espresso); color: var(--cream); }
+.section-head { max-width: 660px; margin: 0 auto 3.4rem; text-align: center; }
+.section-head--left { margin: 0 0 2.4rem; text-align: left; }
+.eyebrow {
+  display: inline-block;
+  font-size: 0.76rem; font-weight: 800;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--terracotta);
+}
+.section--dark .eyebrow { color: var(--gold); }
+.section-head h2, .section-head--left h2 {
+  font-size: clamp(2rem, 4.2vw, 3rem);
+  margin: 0.65rem 0 0.9rem;
+}
+.section-head p { color: var(--ink-soft); font-size: 1.05rem; }
+.section--dark .section-head p { color: rgba(248, 241, 229, 0.72); }
+
+/* ---------- Intro ---------- */
+.intro-grid { display: grid; gap: 3rem; align-items: center; }
+.intro-copy p { color: #4E463F; margin-bottom: 1.15rem; }
+.intro-copy p:last-of-type { margin-bottom: 0; }
+.intro-img { position: relative; }
+.intro-img img {
+  width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 24px 60px rgba(43, 29, 20, 0.22);
+}
+.intro-img::after {
+  content: ""; position: absolute; z-index: -1;
+  right: -16px; bottom: -16px; width: 62%; height: 55%;
+  border: 2px solid var(--gold); border-radius: var(--radius);
+}
+.stats { display: grid; gap: 1.8rem; margin-top: 3.6rem; }
+.stat { padding-top: 1.4rem; border-top: 2px solid var(--gold-soft); }
+.stat svg { color: var(--terracotta); margin-bottom: 0.7rem; }
+.stat h3 { font-size: 1.35rem; margin-bottom: 0.25rem; }
+.stat p { font-size: 0.92rem; color: var(--ink-soft); }
+
+@media (min-width: 640px) { .stats { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) {
+  .intro-grid { grid-template-columns: 1.05fr 0.95fr; gap: 5rem; }
+}
+
+/* ---------- Services ---------- */
+.services-grid { display: grid; gap: 1.8rem; }
+.card {
+  background: var(--cream-card);
+  border-radius: var(--radius); overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex; flex-direction: column;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-card-hover); }
+.card-img { aspect-ratio: 4 / 3; overflow: hidden; }
+.card-img img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.65s ease;
+}
+.card:hover .card-img img { transform: scale(1.07); }
+.card-body { padding: 1.6rem 1.6rem 1.8rem; display: flex; flex-direction: column; flex: 1; }
+.card h3 {
+  font-size: 1.42rem; align-self: flex-start;
+  position: relative; padding-bottom: 0.4rem;
+}
+.card h3::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  height: 2px; width: 0; background: var(--terracotta);
+  transition: width 0.35s ease;
+}
+.card:hover h3::after { width: 100%; }
+.card p { font-size: 0.94rem; color: var(--ink-soft); margin: 0.6rem 0 1.2rem; flex: 1; }
+.card-link {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-size: 0.82rem; font-weight: 800; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--terracotta); text-decoration: none;
+  align-self: flex-start;
+}
+.card-link svg { transition: transform 0.25s ease; }
+.card-link:hover svg { transform: translateX(5px); }
+
+@media (min-width: 640px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1280px) { .services-grid { grid-template-columns: repeat(4, 1fr); } }
+
+/* ---------- Menu preview / tabs ---------- */
+.tabs {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.6rem; margin-bottom: 3rem;
+}
+.tab {
+  padding: 0.62rem 1.45rem; border-radius: 999px;
+  border: 1.5px solid rgba(160, 52, 30, 0.35);
+  background: transparent; color: var(--charcoal);
+  font-weight: 700; font-size: 0.88rem; cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+.tab:hover { border-color: var(--terracotta); color: var(--terracotta); }
+.tab[aria-selected="true"] {
+  background: var(--terracotta); border-color: var(--terracotta); color: var(--cream);
+}
+.menu-panel { display: grid; gap: 2rem 3.5rem; }
+.menu-panel[hidden] { display: none; }
+.menu-item { border-bottom: 1px dashed var(--gold-soft); padding-bottom: 1.3rem; }
+.menu-item h4 { font-size: 1.28rem; font-weight: 500; margin-bottom: 0.2rem; }
+.menu-item h4 span {
+  font-family: var(--sans); font-size: 0.72rem; font-weight: 800;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold);
+  vertical-align: middle; margin-left: 0.5rem;
+}
+.menu-item p { font-size: 0.93rem; color: var(--ink-soft); }
+.menu-cta { text-align: center; margin-top: 3.2rem; }
+@media (min-width: 768px) { .menu-panel { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Menu page ---------- */
+.menu-jump {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.6rem; margin-bottom: 3.6rem;
+}
+.menu-jump a {
+  padding: 0.55rem 1.3rem; border-radius: 999px;
+  border: 1.5px solid rgba(160, 52, 30, 0.35);
+  font-weight: 700; font-size: 0.86rem; text-decoration: none;
+  color: var(--charcoal);
+  transition: background 0.25s, color 0.25s, border-color 0.25s;
+}
+.menu-jump a:hover { background: var(--terracotta); border-color: var(--terracotta); color: var(--cream); }
+.menu-section { margin-bottom: 4.5rem; }
+.menu-section:last-of-type { margin-bottom: 0; }
+.menu-section-head {
+  display: flex; align-items: baseline; gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+.menu-section-head h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); white-space: nowrap; }
+.menu-section-head::after {
+  content: ""; flex: 1; height: 1px;
+  background: linear-gradient(to right, var(--gold), transparent);
+}
+.menu-note {
+  background: var(--cream-card); border: 1px solid var(--gold-soft);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius-sm); padding: 1.3rem 1.6rem;
+  color: #4E463F; font-size: 0.97rem; max-width: 820px;
+  margin: 0 auto 4rem;
+}
+
+/* ---------- How it works ---------- */
+.steps { display: grid; gap: 2.6rem; }
+.step { text-align: center; position: relative; padding: 0 0.8rem; }
+.step-num {
+  width: 66px; height: 66px; margin: 0 auto 1.25rem;
+  border-radius: 50%; border: 2px solid var(--gold);
+  background: var(--cream-card);
+  display: grid; place-items: center;
+  font-family: var(--serif); font-size: 1.7rem; font-weight: 600;
+  color: var(--terracotta);
+  position: relative; z-index: 1;
+}
+.step svg { color: var(--gold); margin: 0 auto 0.9rem; display: block; }
+.step h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+.step p { font-size: 0.95rem; color: var(--ink-soft); max-width: 30ch; margin: 0 auto; }
+@media (min-width: 768px) {
+  .steps { grid-template-columns: repeat(3, 1fr); }
+  .step:not(:last-child)::before {
+    content: ""; position: absolute; top: 33px;
+    left: calc(50% + 52px); width: calc(100% - 104px);
+    border-top: 2px dashed var(--gold-soft);
+  }
+}
+.info-band {
+  margin-top: 3.8rem;
+  background: var(--espresso); color: var(--cream);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.9rem 2.8rem;
+  font-size: 0.96rem; font-weight: 600;
+}
+.info-band span { display: inline-flex; align-items: center; gap: 0.6rem; }
+.info-band span::before {
+  content: "✦"; color: var(--gold); font-size: 0.8rem;
+}
+
+/* ---------- Gallery ---------- */
+.masonry { columns: 1; column-gap: 1.2rem; }
+.g-item {
+  display: block; width: 100%; margin-bottom: 1.2rem;
+  padding: 0; border: 0; background: none;
+  border-radius: 10px; overflow: hidden;
+  cursor: zoom-in; break-inside: avoid;
+}
+.g-item img { width: 100%; transition: transform 0.5s ease, filter 0.5s ease; }
+.g-item:hover img { transform: scale(1.045); filter: brightness(1.05); }
+@media (min-width: 640px) { .masonry { columns: 2; } }
+@media (min-width: 1024px) { .masonry { columns: 3; } }
+.masonry--wide { column-gap: 1.4rem; }
+@media (min-width: 1280px) { .masonry--wide { columns: 4; } }
+.gallery-cta { text-align: center; margin-top: 2.6rem; }
+
+.lightbox {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(22, 11, 5, 0.94);
+  display: none; align-items: center; justify-content: center;
+  padding: 1.5rem;
+}
+.lightbox.open { display: flex; }
+.lightbox figure {
+  max-width: min(1100px, 94vw); text-align: center;
+}
+.lightbox img {
+  max-width: 100%; max-height: 80vh;
+  border-radius: var(--radius-sm); margin: 0 auto;
+}
+.lightbox figcaption {
+  color: rgba(248, 241, 229, 0.75); font-size: 0.9rem; margin-top: 1rem;
+}
+.lb-btn {
+  position: absolute; background: rgba(248, 241, 229, 0.08);
+  border: 1.5px solid rgba(248, 241, 229, 0.35); color: var(--cream);
+  width: 48px; height: 48px; border-radius: 50%;
+  display: grid; place-items: center; cursor: pointer;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+.lb-btn:hover { border-color: var(--gold); color: var(--gold); background: rgba(201, 162, 74, 0.12); }
+.lb-close { top: 1.4rem; right: 1.4rem; }
+.lb-prev { left: 1.2rem; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 1.2rem; top: 50%; transform: translateY(-50%); }
+@media (max-width: 639px) { .lb-prev, .lb-next { display: none; } }
+
+/* ---------- Testimonials ---------- */
+.t-wrap { max-width: 780px; margin: 0 auto; text-align: center; }
+.t-mark {
+  font-family: var(--serif); font-size: 6rem; line-height: 0.6;
+  color: var(--gold); display: block; margin-bottom: 1.6rem;
+  user-select: none;
+}
+.t-viewport { position: relative; min-height: 240px; }
+.t-slide { transition: opacity 0.45s ease; }
+.t-slide[hidden] { display: none; }
+.t-slide.fading { opacity: 0; }
+.t-quote {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(1.3rem, 2.5vw, 1.65rem); line-height: 1.5;
+  color: var(--cream);
+}
+.t-stars { color: var(--gold); letter-spacing: 0.35em; margin: 1.6rem 0 0.7rem; font-size: 1.05rem; }
+.t-name { font-weight: 800; font-size: 1rem; }
+.t-event {
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: rgba(248, 241, 229, 0.55);
+  margin-top: 0.25rem;
+}
+.t-nav { display: flex; align-items: center; justify-content: center; gap: 0.7rem; margin-top: 2.4rem; }
+.t-arrow {
+  background: none; border: 1.5px solid rgba(248, 241, 229, 0.35);
+  color: var(--cream); width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center; cursor: pointer;
+  transition: border-color 0.25s, color 0.25s;
+  margin: 0 0.9rem;
+}
+.t-arrow:hover { border-color: var(--gold); color: var(--gold); }
+.t-dot {
+  width: 9px; height: 9px; border-radius: 50%; border: 0; padding: 0;
+  background: rgba(248, 241, 229, 0.28); cursor: pointer;
+  transition: background 0.25s, transform 0.25s;
+}
+.t-dot[aria-current="true"] { background: var(--gold); transform: scale(1.3); }
+
+/* ---------- About ---------- */
+.about-grid { display: grid; gap: 3rem; align-items: center; }
+.about-img img {
+  width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 24px 60px rgba(43, 29, 20, 0.22);
+}
+.about-copy p { color: #4E463F; margin-bottom: 1.15rem; }
+.signature {
+  font-family: var(--serif); font-style: italic; font-weight: 500;
+  color: var(--terracotta); font-size: 1.2rem; margin-top: 1.6rem;
+}
+@media (min-width: 1024px) {
+  .about-grid { grid-template-columns: 0.95fr 1.05fr; gap: 5rem; }
+}
+
+/* ---------- CTA band ---------- */
+.cta-band {
+  background: radial-gradient(130% 220% at 12% -20%, #B23F27 0%, var(--terracotta) 55%, #8E2B17 100%);
+  color: var(--cream); text-align: center;
+  padding: clamp(4.2rem, 8vw, 6.8rem) 0;
+}
+.cta-band h2 { font-size: clamp(2rem, 4.6vw, 3.3rem); margin-bottom: 0.9rem; }
+.cta-band p { color: rgba(248, 241, 229, 0.88); font-size: 1.08rem; max-width: 46ch; margin: 0 auto 2.4rem; }
+
+/* ---------- Contact ---------- */
+.contact-grid { display: grid; gap: 3.2rem; }
+.c-line { display: flex; gap: 1.1rem; margin-bottom: 1.7rem; }
+.c-ico {
+  flex-shrink: 0; width: 46px; height: 46px; border-radius: 50%;
+  background: rgba(201, 162, 74, 0.16); color: var(--terracotta);
+  display: grid; place-items: center;
+}
+.c-line h3 { font-family: var(--sans); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 0.15rem; }
+.c-line p, .c-line a { font-size: 1rem; color: var(--charcoal); text-decoration: none; }
+.c-line a:hover { color: var(--terracotta); }
+.socials { display: flex; gap: 0.8rem; margin-top: 2.2rem; }
+.socials a {
+  width: 46px; height: 46px; border-radius: 50%;
+  border: 1.5px solid var(--gold); color: var(--gold);
+  display: grid; place-items: center;
+  transition: background 0.25s, color 0.25s, transform 0.25s;
+}
+.socials a:hover { background: var(--gold); color: var(--espresso); transform: translateY(-3px); }
+
+.quote-form {
+  background: var(--cream-card);
+  border: 1px solid rgba(201, 162, 74, 0.3);
+  border-radius: var(--radius);
+  padding: 2rem 1.6rem;
+  box-shadow: var(--shadow-card);
+}
+.f-grid { display: grid; gap: 1.25rem; }
+.f-field label {
+  display: block; font-size: 0.78rem; font-weight: 800;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: #4E463F; margin-bottom: 0.45rem;
+}
+.f-field label .req { color: var(--terracotta); }
+.f-field input, .f-field select, .f-field textarea {
+  width: 100%; padding: 0.85rem 1rem;
+  border: 1.5px solid #DED3C2; border-radius: var(--radius-sm);
+  background: #fff; font: inherit; font-size: 0.96rem; color: var(--charcoal);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.f-field select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%23A0341E' stroke-width='2'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.6rem; }
+.f-field input:focus, .f-field select:focus, .f-field textarea:focus {
+  outline: none; border-color: var(--terracotta);
+  box-shadow: 0 0 0 3px rgba(160, 52, 30, 0.14);
+}
+.f-field textarea { min-height: 130px; resize: vertical; }
+.f-hint { font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.9rem; text-align: center; }
+@media (min-width: 640px) {
+  .quote-form { padding: 2.6rem; }
+  .f-grid--2 { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1024px) {
+  .contact-grid { grid-template-columns: 0.9fr 1.1fr; gap: 4.5rem; align-items: start; }
+}
+.map-wrap {
+  margin-top: 4.2rem; border-radius: var(--radius); overflow: hidden;
+  height: 380px; box-shadow: var(--shadow-card);
+  filter: sepia(0.22) saturate(0.92);
+}
+.map-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background: var(--espresso-deep); color: rgba(248, 241, 229, 0.75);
+  padding-top: 4.5rem; font-size: 0.95rem;
+}
+.footer-grid { display: grid; gap: 2.6rem; }
+.f-logo {
+  font-family: var(--serif); font-size: 1.6rem; font-weight: 600;
+  color: var(--cream); text-decoration: none;
+}
+.f-logo em { font-style: italic; font-weight: 500; color: var(--gold); }
+.f-tagline { margin-top: 0.9rem; max-width: 30ch; line-height: 1.7; }
+.f-col h4 {
+  font-family: var(--sans); font-size: 0.76rem; font-weight: 800;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 1.2rem;
+}
+.f-col li { margin-bottom: 0.6rem; }
+.f-col a { text-decoration: none; transition: color 0.2s ease; }
+.f-col a:hover { color: var(--gold); }
+.footer-bottom {
+  border-top: 1px solid rgba(248, 241, 229, 0.12);
+  margin-top: 3.6rem; padding: 1.6rem 0;
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.8rem 2rem;
+  font-size: 0.84rem; color: rgba(248, 241, 229, 0.5);
+}
+.footer-bottom a { color: inherit; text-decoration: none; margin-left: 1.4rem; }
+.footer-bottom a:first-child { margin-left: 0; }
+.footer-bottom a:hover { color: var(--gold); }
+@media (min-width: 640px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1024px) { .footer-grid { grid-template-columns: 1.6fr 0.8fr 1fr 1.2fr; } }
+
+/* ---------- Page banner (subpages) ---------- */
+.page-banner {
+  position: relative; min-height: 56vh;
+  display: flex; align-items: flex-end;
+  background-size: cover; background-position: center;
+  color: var(--cream);
+}
+.page-banner::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(52deg,
+    rgba(26, 13, 6, 0.85) 0%,
+    rgba(26, 13, 6, 0.5) 45%,
+    rgba(26, 13, 6, 0.1) 100%);
+}
+.page-banner .container { position: relative; z-index: 1; padding-top: 8rem; padding-bottom: 3.8rem; }
+.page-banner h1 { font-size: clamp(2.5rem, 5.5vw, 4rem); margin: 0.8rem 0 0.9rem; }
+.page-banner p { max-width: 52ch; color: rgba(248, 241, 229, 0.9); font-size: 1.08rem; }
+.page-banner .eyebrow { color: var(--gold); }
+
+/* ---------- Toast ---------- */
+.toast {
+  position: fixed; left: 50%; bottom: 1.6rem; z-index: 300;
+  transform: translate(-50%, 200%);
+  background: var(--espresso); color: var(--cream);
+  border-left: 4px solid var(--gold);
+  border-radius: 10px; padding: 1.05rem 1.6rem;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
+  max-width: min(92vw, 480px); font-size: 0.95rem; font-weight: 600;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.toast.show { transform: translate(-50%, 0); }
+
+/* ---------- Reveal animations ---------- */
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.75s ease, transform 0.75s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal[data-d="1"] { transition-delay: 0.1s; }
+.reveal[data-d="2"] { transition-delay: 0.2s; }
+.reveal[data-d="3"] { transition-delay: 0.3s; }
+.reveal[data-d="4"] { transition-delay: 0.4s; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .scroll-cue .line { animation: none; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+</style>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">Esmetu <em>Catering</em></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--primary nav-cta" href="#contact">Request a Quote</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <a href="#top">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn--primary" href="#contact">Request a Quote</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&amp;w=2000&amp;auto=format&amp;fit=crop')" aria-label="Welcome">
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Mediterranean &amp; Turkish Catering · Houston, TX</p>
+        <h1>Catering That Brings People&nbsp;Together</h1>
+        <p class="hero-sub">Authentic Mediterranean &amp; Turkish cuisine, crafted for your most important moments.</p>
+        <div class="hero-ctas">
+          <a class="btn btn--primary btn--lg" href="#contact">Request a Quote</a>
+          <a class="btn btn--ghost btn--lg" href="menu.html">View Our Menu</a>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">Scroll<span class="line"></span></div>
+    </section>
+
+    <!-- ================= INTRO / VALUE PROP ================= -->
+    <section class="section" id="intro">
+      <div class="container">
+        <div class="intro-grid">
+          <div class="intro-copy reveal">
+            <span class="eyebrow">Crafted With Care</span>
+            <h2 style="font-size:clamp(2rem,4.2vw,3rem);margin:.65rem 0 1.4rem">From Our Kitchen to Your&nbsp;Event</h2>
+            <p>Esmetu Catering began the way all good meals do — around a family table. We bring generations of Mediterranean and Turkish cooking to your celebrations: recipes passed down, perfected, and made from scratch every single time.</p>
+            <p>Every menu starts with the season's best. Charcoal-grilled meats, garden-fresh mezze, and bread baked the morning of your event. No shortcuts, no pre-made trays — just honest food, made with care.</p>
+            <p>From intimate dinners to five-hundred-guest weddings, we cook like you're family. Because at your table, you are.</p>
+          </div>
+          <div class="intro-img reveal" data-d="1">
+            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" alt="Chef finishing a dish over an open flame in the Esmetu kitchen" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            <h3>100+ Events Catered</h3>
+            <p>Weddings, galas, boardrooms and backyards — every one treated like our own.</p>
+          </div>
+          <div class="stat reveal" data-d="1">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+            <h3>Fully Customizable Menus</h3>
+            <p>Halal, vegetarian, vegan, gluten-aware — built around your guests, not the other way round.</p>
+          </div>
+          <div class="stat reveal" data-d="2">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <h3>Serving Greater Houston</h3>
+            <p>From The Woodlands to Sugar Land — we come to you, seven days a week.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services" style="background:#FDF8EF">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What We Cater</span>
+          <h2>For Every Occasion Worth Celebrating</h2>
+          <p>Whatever brings your people together, we bring the feast.</p>
+        </div>
+        <div class="services-grid">
+          <article class="card reveal">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Elegant outdoor wedding reception table set for dinner" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <h3>Weddings</h3>
+              <p>From mezze hours to grand feasts — menus as memorable as the day itself.</p>
+              <a class="card-link" href="#contact" data-event="Wedding">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            </div>
+          </article>
+          <article class="card reveal" data-d="1">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Fresh, colorful lunch bowls ready for a corporate event" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <h3>Corporate Events &amp; Lunches</h3>
+              <p>Boardroom lunches to company celebrations — delivered on time, every time.</p>
+              <a class="card-link" href="#contact" data-event="Corporate Event">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            </div>
+          </article>
+          <article class="card reveal" data-d="2">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1530062845289-9109b2c9c868?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Friends gathered around a long table at an outdoor celebration" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <h3>Private Parties &amp; Celebrations</h3>
+              <p>Birthdays, anniversaries, graduations — any excuse to gather around good food.</p>
+              <a class="card-link" href="#contact" data-event="Private Party">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            </div>
+          </article>
+          <article class="card reveal" data-d="3">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Generous holiday feast laid out along a rustic dinner table" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <h3>Holiday &amp; Religious Gatherings</h3>
+              <p>Iftar dinners, Eid feasts, and holiday tables honored with tradition and care.</p>
+              <a class="card-link" href="#contact" data-event="Holiday / Religious Gathering">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MENU PREVIEW ================= -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The Food</span>
+          <h2>A Taste of What We Offer</h2>
+          <p>Every menu is built around your event — these favorites are just the beginning.</p>
+        </div>
+        <div class="tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="tab" role="tab" aria-selected="true" aria-controls="panel-mezze" id="tab-mezze">Appetizers &amp; Mezze</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-mains" id="tab-mains">Mains &amp; Kebabs</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-sides" id="tab-sides">Sides &amp; Salads</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-desserts" id="tab-desserts">Desserts</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-beverages" id="tab-beverages">Beverages</button>
+        </div>
+
+        <div class="menu-panel reveal" id="panel-mezze" role="tabpanel" aria-labelledby="tab-mezze">
+          <div class="menu-item"><h4>Hummus</h4><p>Silky chickpea purée with tahini, lemon, and cold-pressed olive oil.</p></div>
+          <div class="menu-item"><h4>Haydari</h4><p>Thick strained yogurt with garlic, dill, and toasted walnuts.</p></div>
+          <div class="menu-item"><h4>Ezme</h4><p>Finely chopped tomato, pepper, and onion with pomegranate molasses.</p></div>
+          <div class="menu-item"><h4>Sigara Böreği</h4><p>Crispy phyllo rolls filled with feta and fresh parsley.</p></div>
+          <div class="menu-item"><h4>Yaprak Sarma <span>V</span></h4><p>Hand-rolled grape leaves with rice, currants, and pine nuts.</p></div>
+          <div class="menu-item"><h4>Muhammara <span>V</span></h4><p>Roasted red pepper and walnut spread, a little sweet, a little smoky.</p></div>
+        </div>
+
+        <div class="menu-panel" id="panel-mains" role="tabpanel" aria-labelledby="tab-mains" hidden>
+          <div class="menu-item"><h4>Adana Kebab</h4><p>Hand-minced lamb, seasoned and charcoal-grilled on flat skewers.</p></div>
+          <div class="menu-item"><h4>Chicken Shish</h4><p>Marinated chicken breast grilled with peppers and onion.</p></div>
+          <div class="menu-item"><h4>Kuzu Tandır</h4><p>Slow-roasted lamb shoulder, falling off the bone.</p></div>
+          <div class="menu-item"><h4>İskender</h4><p>Sliced döner over pide bread with tomato sauce and brown butter.</p></div>
+          <div class="menu-item"><h4>Mantı</h4><p>Tiny handmade dumplings with garlic yogurt and Aleppo butter.</p></div>
+          <div class="menu-item"><h4>İmam Bayıldı <span>V</span></h4><p>Whole eggplant braised with tomato, onion, and olive oil.</p></div>
+        </div>
+
+        <div class="menu-panel" id="panel-sides" role="tabpanel" aria-labelledby="tab-sides" hidden>
+          <div class="menu-item"><h4>Pilav with Orzo</h4><p>Buttered rice with toasted orzo — the table's quiet favorite.</p></div>
+          <div class="menu-item"><h4>Çoban Salatası <span>V</span></h4><p>Shepherd's salad of tomato, cucumber, pepper, and onion.</p></div>
+          <div class="menu-item"><h4>Gavurdağı Salad <span>V</span></h4><p>Chopped salad with walnuts and pomegranate molasses.</p></div>
+          <div class="menu-item"><h4>Charcoal-Grilled Vegetables <span>V</span></h4><p>Seasonal vegetables, olive oil, and sea salt — nothing more needed.</p></div>
+          <div class="menu-item"><h4>Fresh-Baked Pide &amp; Lavash</h4><p>From our ovens the morning of your event.</p></div>
+          <div class="menu-item"><h4>Sumac Onions &amp; Grilled Peppers <span>V</span></h4><p>The kebab's best friends.</p></div>
+        </div>
+
+        <div class="menu-panel" id="panel-desserts" role="tabpanel" aria-labelledby="tab-desserts" hidden>
+          <div class="menu-item"><h4>Baklava</h4><p>Forty delicate layers, Gaziantep pistachios, light syrup.</p></div>
+          <div class="menu-item"><h4>Künefe</h4><p>Warm shredded kadayıf with melting cheese, served table-side.</p></div>
+          <div class="menu-item"><h4>Sütlaç</h4><p>Baked rice pudding with a caramelized top.</p></div>
+          <div class="menu-item"><h4>Şekerpare</h4><p>Soft semolina cookies soaked in citrus syrup.</p></div>
+          <div class="menu-item"><h4>Seasonal Fruit Display</h4><p>Carved and arranged — as beautiful as it is fresh.</p></div>
+          <div class="menu-item"><h4>Turkish Delight &amp; Pistachio Platter</h4><p>A sweet send-off with coffee.</p></div>
+        </div>
+
+        <div class="menu-panel" id="panel-beverages" role="tabpanel" aria-labelledby="tab-beverages" hidden>
+          <div class="menu-item"><h4>Turkish Tea Service</h4><p>Double-brewed çay poured into tulip glasses.</p></div>
+          <div class="menu-item"><h4>Turkish Coffee</h4><p>Slow-brewed and served with lokum.</p></div>
+          <div class="menu-item"><h4>Ayran</h4><p>Chilled, lightly salted yogurt drink — the kebab classic.</p></div>
+          <div class="menu-item"><h4>Fresh Mint Lemonade</h4><p>Squeezed to order, never from concentrate.</p></div>
+          <div class="menu-item"><h4>Pomegranate &amp; Sour Cherry Juices</h4><p>Bright, tart, and beautiful on the table.</p></div>
+          <div class="menu-item"><h4>Sparkling &amp; Still Water Service</h4><p>Bottled service for seated dinners.</p></div>
+        </div>
+
+        <div class="menu-cta reveal">
+          <a class="btn btn--ghost-dark btn--lg" href="menu.html">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section" id="how" style="background:#FDF8EF">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Simple By Design</span>
+          <h2>How It Works</h2>
+          <p>Three simple steps between you and an unforgettable table.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">1</div>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <h3>Tell Us About Your Event</h3>
+            <p>Share your date, guest count, and vision. We listen first.</p>
+          </div>
+          <div class="step reveal" data-d="1">
+            <div class="step-num" aria-hidden="true">2</div>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+            <h3>We Build a Custom Menu</h3>
+            <p>A tasting-worthy menu shaped around your tastes, traditions, and budget.</p>
+          </div>
+          <div class="step reveal" data-d="2">
+            <div class="step-num" aria-hidden="true">3</div>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13" rx="1"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+            <h3>We Deliver, Set Up &amp; Serve</h3>
+            <p>We arrive early, set a beautiful table, and take care of everything.</p>
+          </div>
+        </div>
+        <div class="info-band reveal">
+          <span>Minimum order: 20 guests</span>
+          <span>Available 7 days a week</span>
+          <span>Full-service &amp; drop-off options</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">From Recent Events</span>
+          <h2>The Table Speaks for Itself</h2>
+          <p>A few moments from kitchens, weddings, and long tables we've had the honor to serve.</p>
+        </div>
+        <div class="masonry reveal">
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Skewers of marinated meat grilling over open charcoal flames" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Platter of grilled meat with roasted vegetables and fresh herbs" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Overhead view of a full table spread shared between guests" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Large pan of saffron rice with seafood served at an event" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Family-style dinner spread with salads and roasted dishes" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Plated main course with grilled meat and golden fries" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Chocolate dessert cups arranged for a celebration" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Warmly lit dining room set and ready for guests" loading="lazy" decoding="async"></button>
+          <button class="g-item" type="button"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Herb-crusted salmon plated with seasonal vegetables" loading="lazy" decoding="async"></button>
+        </div>
+        <div class="gallery-cta reveal">
+          <a class="btn btn--ghost-dark" href="gallery.html">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section section--dark" id="testimonials">
+      <div class="container">
+        <div class="t-wrap reveal">
+          <span class="eyebrow">Kind Words</span>
+          <span class="t-mark" aria-hidden="true">&ldquo;</span>
+          <div class="t-viewport" aria-live="polite">
+            <div class="t-slide">
+              <blockquote class="t-quote">Esmetu catered our wedding for 180 guests and people still talk about the food. The lamb was unreal, and the team felt like part of the family.</blockquote>
+              <p class="t-stars" aria-hidden="true">★★★★★</p>
+              <span class="sr-only">Rated 5 out of 5 stars</span>
+              <p class="t-name">Sarah &amp; Mehmet A.</p>
+              <p class="t-event">Wedding · 180 Guests</p>
+            </div>
+            <div class="t-slide" hidden>
+              <blockquote class="t-quote">Our quarterly all-hands went from pizza boxes to a mezze spread people actually look forward to. Effortless to work with, always on time.</blockquote>
+              <p class="t-stars" aria-hidden="true">★★★★★</p>
+              <span class="sr-only">Rated 5 out of 5 stars</span>
+              <p class="t-name">David R.</p>
+              <p class="t-event">Corporate Event · Quarterly</p>
+            </div>
+            <div class="t-slide" hidden>
+              <blockquote class="t-quote">They handled our Eid gathering for sixty with so much warmth and respect for tradition. The baklava alone is worth the call.</blockquote>
+              <p class="t-stars" aria-hidden="true">★★★★★</p>
+              <span class="sr-only">Rated 5 out of 5 stars</span>
+              <p class="t-name">Aisha K.</p>
+              <p class="t-event">Holiday Gathering · 60 Guests</p>
+            </div>
+            <div class="t-slide" hidden>
+              <blockquote class="t-quote">Booked them for my mother's 70th birthday. Beautiful setup, gracious staff, and künefe served warm table-side — perfection.</blockquote>
+              <p class="t-stars" aria-hidden="true">★★★★★</p>
+              <span class="sr-only">Rated 5 out of 5 stars</span>
+              <p class="t-name">Elena M.</p>
+              <p class="t-event">Private Party · 45 Guests</p>
+            </div>
+          </div>
+          <div class="t-nav">
+            <button class="t-arrow t-arrow--prev" aria-label="Previous testimonial"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+            <div class="t-dots" style="display:flex;gap:.7rem;align-items:center"></div>
+            <button class="t-arrow t-arrow--next" aria-label="Next testimonial"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img reveal">
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" alt="The Esmetu team preparing dishes during an event service" loading="lazy" decoding="async">
+          </div>
+          <div class="about-copy reveal" data-d="1">
+            <span class="eyebrow">Family First</span>
+            <h2 style="font-size:clamp(2rem,4.2vw,3rem);margin:.65rem 0 1.4rem">Our Story</h2>
+            <p>Esmetu started in Esma's kitchen — a place where no one ever left hungry and every dish carried a story. What began as cooking for neighbors and family celebrations grew, plate by plate, into the catering house we are today.</p>
+            <p>We're still family-run. Still rolling sarma by hand, still baking every morning, still arguing about whose baklava is best. The recipes come from Gaziantep and the Aegean coast; the welcome comes from the heart.</p>
+            <p>When we cater your event, we bring more than food — we bring the table culture we grew up with: generous, unhurried, and made for sharing.</p>
+            <p class="signature">From our family to yours. — The Esmetu Family</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA BAND ================= -->
+    <section class="cta-band">
+      <div class="container reveal">
+        <h2>Planning an event? Let's make it unforgettable.</h2>
+        <p>Tell us what you're dreaming up — we'll bring the feast.</p>
+        <a class="btn btn--light btn--lg" href="#contact">Request a Quote</a>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT / QUOTE ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>Request a Quote</h2>
+          <p>Tell us a little about your event and we'll get back to you within 24 hours.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="reveal">
+            <div class="c-line">
+              <span class="c-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+              <div><h3>Kitchen &amp; Office</h3><p>1234 Westheimer Rd, Houston, TX 77006</p></div>
+            </div>
+            <div class="c-line">
+              <span class="c-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+              <div><h3>Phone</h3><p><a href="tel:+17135550184">(713) 555-0184</a></p></div>
+            </div>
+            <div class="c-line">
+              <span class="c-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,6 12,13 2,6"></polyline></svg></span>
+              <div><h3>Email</h3><p><a href="mailto:hello@esmetucatering.com">hello@esmetucatering.com</a></p></div>
+            </div>
+            <div class="c-line">
+              <span class="c-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>
+              <div><h3>Hours</h3><p>Mon–Sun · 9:00 AM – 7:00 PM<br>Events catered any day, any time</p></div>
+            </div>
+            <div class="socials">
+              <a href="#" aria-label="Esmetu Catering on Instagram"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+              <a href="#" aria-label="Esmetu Catering on Facebook"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+              <a href="#" aria-label="Esmetu Catering on X"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 4l16 16"></path><path d="M20 4L4 20"></path></svg></a>
+            </div>
+          </div>
+
+          <form class="quote-form reveal" data-d="1" id="quote-form" novalidate="false">
+            <div class="f-grid">
+              <div class="f-grid f-grid--2">
+                <div class="f-field">
+                  <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
+                  <input type="text" id="f-name" name="name" autocomplete="name" placeholder="Your full name" required>
+                </div>
+                <div class="f-field">
+                  <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+                  <input type="email" id="f-email" name="email" autocomplete="email" placeholder="you@example.com" required>
+                </div>
+              </div>
+              <div class="f-grid f-grid--2">
+                <div class="f-field">
+                  <label for="f-phone">Phone</label>
+                  <input type="tel" id="f-phone" name="phone" autocomplete="tel" placeholder="(713) 555-0000">
+                </div>
+                <div class="f-field">
+                  <label for="f-date">Event Date <span class="req" aria-hidden="true">*</span></label>
+                  <input type="date" id="f-date" name="event_date" required>
+                </div>
+              </div>
+              <div class="f-grid f-grid--2">
+                <div class="f-field">
+                  <label for="f-type">Event Type <span class="req" aria-hidden="true">*</span></label>
+                  <select id="f-type" name="event_type" required>
+                    <option value="" selected disabled>Select an event type</option>
+                    <option>Wedding</option>
+                    <option>Corporate Event</option>
+                    <option>Private Party</option>
+                    <option>Holiday / Religious Gathering</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="f-field">
+                  <label for="f-guests">Number of Guests <span class="req" aria-hidden="true">*</span></label>
+                  <input type="number" id="f-guests" name="guests" min="20" placeholder="e.g. 75 (min. 20)" required>
+                </div>
+              </div>
+              <div class="f-field">
+                <label for="f-message">Message</label>
+                <textarea id="f-message" name="message" placeholder="Tell us about your event — venue, style of service, favorite dishes, dietary needs…"></textarea>
+              </div>
+              <button class="btn btn--primary btn--lg btn--block" type="submit">Send Quote Request</button>
+              <p class="f-hint">No spam, no obligation — just a menu and a number within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="map-wrap reveal">
+          <iframe src="https://www.google.com/maps?q=Houston%2C%20TX&amp;z=10&amp;output=embed" title="Map of the Esmetu Catering service area — Greater Houston" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="f-logo" href="#top">Esmetu <em>Catering</em></a>
+          <p class="f-tagline">Authentic Mediterranean &amp; Turkish catering — from our family to yours.</p>
+        </div>
+        <nav class="f-col" aria-label="Quick links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="f-col" aria-label="Services">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Weddings</a></li>
+            <li><a href="#services">Corporate Events</a></li>
+            <li><a href="#services">Private Parties</a></li>
+            <li><a href="#services">Holiday Gatherings</a></li>
+          </ul>
+        </nav>
+        <div class="f-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>1234 Westheimer Rd, Houston, TX 77006</li>
+            <li><a href="tel:+17135550184">(713) 555-0184</a></li>
+            <li><a href="mailto:hello@esmetucatering.com">hello@esmetucatering.com</a></li>
+            <li>Mon–Sun · 9 AM – 7 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Esmetu Catering. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX ================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-btn lb-close" aria-label="Close image viewer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+    <button class="lb-btn lb-prev" aria-label="Previous image"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="lb-btn lb-next" aria-label="Next image"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    <figure><img src="" alt=""><figcaption></figcaption></figure>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>/* Esmetu Catering — shared site behavior */
+(function () {
+  "use strict";
+
+  var $ = function (sel, ctx) { return (ctx || document).querySelector(sel); };
+  var $$ = function (sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); };
+
+  /* ---------- Sticky header: transparent -> cream ---------- */
+  var header = $(".site-header");
+  function onScroll() {
+    if (header) header.classList.toggle("scrolled", window.scrollY > 24);
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Mobile menu ---------- */
+  var burger = $(".hamburger");
+  var mobileMenu = $("#mobile-menu");
+  function closeMenu() {
+    if (!burger || !mobileMenu) return;
+    burger.classList.remove("open");
+    mobileMenu.classList.remove("open");
+    burger.setAttribute("aria-expanded", "false");
+    document.body.classList.remove("no-scroll");
+  }
+  if (burger && mobileMenu) {
+    burger.addEventListener("click", function () {
+      var open = mobileMenu.classList.toggle("open");
+      burger.classList.toggle("open", open);
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      document.body.classList.toggle("no-scroll", open);
+    });
+    $$("a", mobileMenu).forEach(function (a) { a.addEventListener("click", closeMenu); });
+  }
+
+  /* ---------- Scroll-reveal animations ---------- */
+  var revealEls = $$(".reveal");
+  if ("IntersectionObserver" in window && revealEls.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("visible"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add("visible"); });
+  }
+
+  /* ---------- Menu tabs ---------- */
+  var tabs = $$(".tab");
+  if (tabs.length) {
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        tabs.forEach(function (t) {
+          t.setAttribute("aria-selected", t === tab ? "true" : "false");
+          var panel = document.getElementById(t.getAttribute("aria-controls"));
+          if (panel) panel.hidden = t !== tab;
+        });
+      });
+    });
+  }
+
+  /* ---------- Testimonials carousel ---------- */
+  var tViewport = $(".t-viewport");
+  if (tViewport) {
+    var slides = $$(".t-slide", tViewport);
+    var dotsWrap = $(".t-dots");
+    var current = 0;
+    var timer = null;
+
+    var dots = slides.map(function (_, i) {
+      var d = document.createElement("button");
+      d.className = "t-dot";
+      d.setAttribute("aria-label", "Show testimonial " + (i + 1));
+      d.addEventListener("click", function () { go(i, true); });
+      if (dotsWrap) dotsWrap.appendChild(d);
+      return d;
+    });
+
+    function render() {
+      slides.forEach(function (s, i) { s.hidden = i !== current; });
+      dots.forEach(function (d, i) {
+        if (i === current) d.setAttribute("aria-current", "true");
+        else d.removeAttribute("aria-current");
+      });
+    }
+    function go(i, manual) {
+      var next = (i + slides.length) % slides.length;
+      if (next === current) return;
+      var active = slides[current];
+      active.classList.add("fading");
+      window.setTimeout(function () {
+        active.classList.remove("fading");
+        current = next;
+        render();
+      }, 220);
+      if (manual) restart();
+    }
+    function restart() {
+      if (timer) window.clearInterval(timer);
+      timer = window.setInterval(function () { go(current + 1); }, 6500);
+    }
+    var prev = $(".t-arrow--prev"); var next = $(".t-arrow--next");
+    if (prev) prev.addEventListener("click", function () { go(current - 1, true); });
+    if (next) next.addEventListener("click", function () { go(current + 1, true); });
+    var tSection = tViewport.closest("section") || tViewport;
+    tSection.addEventListener("mouseenter", function () { if (timer) window.clearInterval(timer); });
+    tSection.addEventListener("mouseleave", restart);
+    render();
+    restart();
+  }
+
+  /* ---------- Gallery lightbox ---------- */
+  var lightbox = $("#lightbox");
+  if (lightbox) {
+    var lbImg = $("img", lightbox);
+    var lbCaption = $("figcaption", lightbox);
+    var items = $$(".g-item");
+    var lbIndex = 0;
+    var lastFocus = null;
+
+    function openLb(i) {
+      lbIndex = i;
+      var img = $("img", items[i]);
+      lbImg.src = img.currentSrc || img.src;
+      lbImg.alt = img.alt;
+      lbCaption.textContent = img.alt;
+      lastFocus = document.activeElement;
+      lightbox.classList.add("open");
+      document.body.classList.add("no-scroll");
+      $(".lb-close", lightbox).focus();
+    }
+    function closeLb() {
+      lightbox.classList.remove("open");
+      document.body.classList.remove("no-scroll");
+      if (lastFocus) lastFocus.focus();
+    }
+    function stepLb(dir) { openLb((lbIndex + dir + items.length) % items.length); }
+
+    items.forEach(function (item, i) {
+      item.addEventListener("click", function () { openLb(i); });
+    });
+    $(".lb-close", lightbox).addEventListener("click", closeLb);
+    $(".lb-prev", lightbox).addEventListener("click", function (e) { e.stopPropagation(); stepLb(-1); });
+    $(".lb-next", lightbox).addEventListener("click", function (e) { e.stopPropagation(); stepLb(1); });
+    lightbox.addEventListener("click", function (e) { if (e.target === lightbox) closeLb(); });
+    document.addEventListener("keydown", function (e) {
+      if (!lightbox.classList.contains("open")) return;
+      if (e.key === "Escape") closeLb();
+      if (e.key === "ArrowLeft") stepLb(-1);
+      if (e.key === "ArrowRight") stepLb(1);
+    });
+  }
+
+  /* ---------- Escape closes mobile menu ---------- */
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeMenu();
+  });
+
+  /* ---------- Toast ---------- */
+  var toast = $("#toast");
+  var toastTimer = null;
+  function showToast(msg) {
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("show");
+    if (toastTimer) window.clearTimeout(toastTimer);
+    toastTimer = window.setTimeout(function () { toast.classList.remove("show"); }, 4500);
+  }
+
+  /* ---------- Quote request form (placeholder endpoint) ---------- */
+  var form = $("#quote-form");
+  if (form) {
+    var dateInput = $("#f-date");
+    if (dateInput) dateInput.min = new Date().toISOString().split("T")[0];
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var data = {};
+      new FormData(form).forEach(function (v, k) { data[k] = v; });
+      /* TODO: replace with real endpoint (e.g. fetch("/api/quote", {method:"POST", body: JSON.stringify(data)})) */
+      console.log("Quote request submitted:", data);
+      form.reset();
+      showToast("Thank you! Your request is in — we'll get back to you within 24 hours.");
+    });
+  }
+
+  /* ---------- Service cards preselect event type ---------- */
+  $$("[data-event]").forEach(function (link) {
+    link.addEventListener("click", function () {
+      var select = $("#f-type");
+      if (select) select.value = link.getAttribute("data-event");
+    });
+  });
+
+  /* ---------- Footer year ---------- */
+  var year = $("#year");
+  if (year) year.textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
